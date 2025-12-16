@@ -24,7 +24,7 @@ public class StandAloneTest extends BaseTest {
       
       public void submitOrder(HashMap<String,String> input)  {
 
-	
+	//New comments are added
 		
 		ProductCatalogue productcatalogue = landingpage.loginApplication(input.get("email"), input.get("password"));
 		@SuppressWarnings("unused")
